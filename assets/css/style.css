@@ -73,6 +73,40 @@ section {
     font-size: 28px;
     line-height: 32px;
   }
+
+  #va-chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    border: 1px solid #ccc;
+    border-radius: 5px !important;
+    z-index:999;
+    /* display: none; */
+  }
+  
+  #va-chat-content {
+    border-radius: 5px !important;
+    height: 100%;
+    overflow-x: none;
+  }
+  
+  #va-close-button {
+    padding-top: 20px;
+    /* font-size: 200px; */
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+
 }
 
 /*--------------------------------------------------------------
@@ -90,6 +124,39 @@ section {
   .breadcrumbs {
     margin-top: 57px;
   }
+
+  #va-chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    border: 1px solid #ccc;
+    border-radius: 5px !important;
+    z-index:999;
+    /* display: none; */
+  }
+  
+  #va-chat-content {
+    border-radius: 5px !important;
+    height: 100%;
+    overflow-x: none;
+  }
+  
+  #va-close-button {
+    padding-top: 20px;
+    /* font-size: 200px; */
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
 }
 
 .breadcrumbs h2 {
@@ -165,6 +232,37 @@ section {
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+  }
+  #va-chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    border: 1px solid #ccc;
+    border-radius: 5px !important;
+    z-index:999;
+    /* display: none; */
+  }
+  
+  #va-chat-content {
+    border-radius: 5px !important;
+    height: 100%;
+    overflow-x: none;
+  }
+  
+  #va-close-button {
+    padding-top: 20px;
+    /* font-size: 200px; */
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
   }
 }
 
@@ -560,6 +658,39 @@ section {
   .hero .hero-img img {
     width: 100%;
   }
+
+  #va-chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 250px !important;
+    height: 400px !important;
+    background-color: gray;
+    border: 1px solid #ccc;
+    border-radius: 5px !important;
+    z-index:999;
+    /* display: none; */
+  }
+  
+  #va-chat-content {
+    border-radius: 5px !important;
+    height: 100%;
+    overflow-x: none;
+  }
+  
+  #va-close-button {
+    padding-top: 20px;
+    /* font-size: 200px; */
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -2421,4 +2552,38 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+/*  CHATBOT */
+
+#va-chat-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  height: 400px;
+  background-color: gray;
+  border: 1px solid #ccc;
+  border-radius: 5px !important;
+  z-index:999;
+  /* display: none; */
+}
+
+#va-chat-content {
+  border-radius: 5px !important;
+  height: 100%;
+  overflow-x: none;
+}
+
+#va-close-button {
+  padding-top: 20px;
+  /* font-size: 200px; */
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  border: none;
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
 }
